@@ -23,7 +23,7 @@ const MenuItems = [
     {
         itemName: "Sign Up",
         className: "nav-item",
-        classNameLink: "nav-link-mobile",
+        classNameLink: "nav-link nav-link-mobile",
         to: "/signup",
         id: 4,
     },
