@@ -1,0 +1,68 @@
+video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: fixed;
+}
+
+.button-container {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.button {
+    all: unset;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    border-radius: 100vmax;
+    gap: 0.5rem;
+}
+
+.button-main {
+    background: linear-gradient(to right, #fc466b, #3f5efb);
+    box-shadow: 0 0 2rem black;
+    outline: 3px solid white;
+}
+
+.fa-circle-play {
+    font-size: 4rem;
+}
+
+.hero-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.4);
+    /* kann vielleicht weg */
+    object-fit: contain;
+}
+
+.hero-container h1 {
+    color: white;
+    font-size: 15vw;
+    text-align: center;
+    background: linear-gradient(to right, #fc466b, #3f5efb);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 5px 5px 0.1rem rgba(255, 255, 255, 0.8);
+}
+
+.hero-container p {
+    background: linear-gradient(#ada996, #f2f2f2, #dbdbdb, #eaeaea);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 7.5vw;
+    text-align: center;
+}
