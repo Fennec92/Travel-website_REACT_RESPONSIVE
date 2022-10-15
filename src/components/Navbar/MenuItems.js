@@ -7,14 +7,14 @@ const MenuItems = [
         id: 1,
     },
     {
-        itemName: "Services",
+        itemName: "Recommendations",
         className: "nav-item",
         classNameLink: "nav-link",
         to: "/services",
         id: 2,
     },
     {
-        itemName: "Products",
+        itemName: "Information",
         className: "nav-item",
         classNameLink: "nav-link",
         to: "/products",

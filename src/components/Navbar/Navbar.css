@@ -38,14 +38,14 @@
     align-items: center;
     justify-content: center;
     transition: left 300ms ease-out;
-    font-size: 25vw;
+    font-size: 10vw;
     height: calc(100vh - 100px);
 }
 
 .nav-menu.active {
     left: 0;
     transition: left 300ms ease-out;
-    font-size: 25vw;
+    font-size: 10vw;
     height: calc(100vh - 100px);
 }
 
