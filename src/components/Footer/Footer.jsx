@@ -4,20 +4,14 @@ const Footer = () => {
     return (
         <footer>
             <div className="newsletter-container">
-                <h3>Join our newsletter to reive new adventures</h3>
+                <h3>Join our newsletter to receive new adventures</h3>
                 <form>
-                    <input
-                        className="newsletter-input"
-                        type="email"
-                        placeholder="Enter your email"
-                    />
-                    <button className="newsletter-button" type="submit">
-                        Join
-                    </button>
+                    <input type="email" placeholder="Enter your email" />
+                    <button type="submit">Join</button>
                 </form>
             </div>
             <div className="information-container">
-                <div className="">
+                <div>
                     <h3>About</h3>
                     <a href="#">How it works</a>
                     <a href="#">Testimonials</a>
@@ -25,7 +19,7 @@ const Footer = () => {
                     <a href="#">Investors</a>
                     <a href="#">FAQ</a>
                 </div>
-                <div className="">
+                <div>
                     <h3>Contact us</h3>
                     <a href="#">Contact</a>
                     <a href="#">Support</a>
@@ -33,7 +27,7 @@ const Footer = () => {
                     <a href="#">Sponsors</a>
                     <a href="#">Influencers</a>
                 </div>
-                <div className="">
+                <div>
                     <h3>Social Media</h3>
                     <a href="#">Instagram</a>
                     <a href="#">Facebook</a>

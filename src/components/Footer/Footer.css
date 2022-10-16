@@ -1,3 +1,70 @@
 footer {
     background-color: #fff;
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+
+.newsletter-container {
+    height: 60vh;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.newsletter-container > h3 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.newsletter-container > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.newsletter-container > form > input {
+    /* width: 50vw; */
+    min-width: 300px;
+    max-width: 500px;
+    height: 50px;
+    font-size: 2rem;
+}
+
+.newsletter-container > form > button {
+    width: 200px;
+    height: 50px;
+    font-size: 2rem;
+}
+
+.information-container {
+    height: 40vh;
+    background-color: black;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.information-container div {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+.information-container div > h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.information-container div a {
+    text-decoration: none;
+    color: snow;
+    margin-bottom: 0.2rem;
 }
