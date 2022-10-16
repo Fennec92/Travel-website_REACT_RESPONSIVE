@@ -1,5 +1,9 @@
 const Meditation = () => {
-    return <h2>meditation</h2>;
+    return (
+        <div className="meditation-container">
+            <video src="/videos/video_meditation.mp4" autoPlay loop muted />
+        </div>
+    );
 };
 
 export default Meditation;

@@ -1,5 +1,9 @@
 const Action = () => {
-    return <h2>action</h2>;
+    return (
+        <div className="action-container">
+            <video src="/videos/video_action.mp4" autoPlay loop muted />
+        </div>
+    );
 };
 
 export default Action;
