@@ -1,1 +1,2 @@
-# Just practicing with videos as backgrounds and react router
+# A small website for special trips
+## link
