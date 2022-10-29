@@ -4,11 +4,11 @@ const Explore = () => {
     return (
         <div className="explore-container">
             <video src="/videos/explore.mp4" autoPlay loop muted />
-            <h1>action</h1>
+            <h1>explore</h1>
             <div className="items">
                 {items &&
                     items.map((item) => {
-                        if (item.itemTag === "expolore") {
+                        if (item.itemTag === "explore") {
                             return (
                                 <div key={item.itemId} className="item-card">
                                     <div className="item-card-top">

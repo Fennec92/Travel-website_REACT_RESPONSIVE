@@ -15,7 +15,6 @@
     "rules": {
         "semi": [2, "always"],
         "radix": "off",
-        "no-plusplus": "off",
         "no-else-return": ["error", { "allowElseIf": true }],
         "no-unused-vars": "warn",
         "dot-notation": "off",
