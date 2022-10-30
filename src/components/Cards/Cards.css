@@ -68,3 +68,9 @@
     background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
     color: #f7971e;
 }
+
+@media screen and (max-width: 576px) {
+    .cards-container > h2 {
+        font-size: 20vw;
+    }
+}
