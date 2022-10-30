@@ -3,7 +3,7 @@ import "./Hero.css";
 const Hero = () => {
     return (
         <div className="hero-container">
-            <video src="/videos/video_main.mp4" autoPlay loop muted />
+            <video src="/videos/video_main.mp4" autoPlay loop muted playsinline  />
             <h1>ADVENTURE AWAITS</h1>
             <p>what are you waiting for?</p>
             <div className="button-container">
