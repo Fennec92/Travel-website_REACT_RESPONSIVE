@@ -4,7 +4,13 @@ import items from "./items";
 const You = () => {
     return (
         <div className="items-container">
-            <video src="/videos/video_you.mp4" autoPlay loop muted />
+            <video
+                src="/videos/video_you.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
+            />
             <div className="items">
                 {items &&
                     items.map((item) => {

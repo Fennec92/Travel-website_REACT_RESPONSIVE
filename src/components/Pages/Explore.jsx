@@ -4,7 +4,7 @@ import items from "./items";
 const Explore = () => {
     return (
         <div className="items-container">
-            <video src="/videos/explore.mp4" autoPlay loop muted />
+            <video src="/videos/explore.mp4" autoPlay loop muted playsInline />
             <div className="items">
                 {items &&
                     items.map((item) => {
