@@ -5,7 +5,9 @@ import "./Cards.css";
 const Cards = () => {
     return (
         <div className="cards-container">
-            <h2>Our recommendation for YOU</h2>
+            <h2>
+                Find <span>your</span> way of <span>traveling</span>
+            </h2>
             {CardItems.map((item) => {
                 const {
                     cardTag,

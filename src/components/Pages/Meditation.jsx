@@ -1,10 +1,10 @@
+import "./PageStyle.css";
 import items from "./items";
 
 const Meditation = () => {
     return (
-        <div className="meditation-container">
+        <div className="items-container">
             <video src="/videos/video_meditation.mp4" autoPlay loop muted />
-            <h1>action</h1>
             <div className="items">
                 {items &&
                     items.map((item) => {
@@ -13,6 +13,7 @@ const Meditation = () => {
                                 <div key={item.itemId} className="item-card">
                                     <div className="item-card-top">
                                         <img
+                                            className="item-image"
                                             src={item.itemImage}
                                             alt="abcdef"
                                         />

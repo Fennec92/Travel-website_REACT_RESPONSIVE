@@ -1,10 +1,10 @@
+import "./PageStyle.css";
 import items from "./items";
 
 const You = () => {
     return (
-        <div className="you-container">
+        <div className="items-container">
             <video src="/videos/video_you.mp4" autoPlay loop muted />
-            <h1>action</h1>
             <div className="items">
                 {items &&
                     items.map((item) => {
@@ -13,6 +13,7 @@ const You = () => {
                                 <div key={item.itemId} className="item-card">
                                     <div className="item-card-top">
                                         <img
+                                            className="item-image"
                                             src={item.itemImage}
                                             alt="abcdef"
                                         />
