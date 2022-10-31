@@ -9,6 +9,7 @@ const Hero = () => {
                 loop
                 muted
                 playsInline
+                poster="images/action.jpg"
             />
             <h1>ADVENTURE AWAITS</h1>
             <p>what are you waiting for?</p>
