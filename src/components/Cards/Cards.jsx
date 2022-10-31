@@ -4,7 +4,7 @@ import "./Cards.css";
 
 const Cards = () => {
     return (
-        <div className="cards-container">
+        <div id="card" className="cards-container">
             <h2>
                 Find <span>your</span> way of <span>traveling</span>
             </h2>

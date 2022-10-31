@@ -15,7 +15,7 @@ const Hero = () => {
             <p>what are you waiting for?</p>
             <div className="button-container">
                 <button className="button button-main" type="button">
-                    GET STARTED
+                    <a href="#card">GET STARTED</a>
                 </button>
             </div>
         </div>

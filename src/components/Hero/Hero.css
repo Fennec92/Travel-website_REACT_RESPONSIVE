@@ -30,9 +30,9 @@ video {
     box-shadow: 0 0 2rem black;
     outline: 3px solid white;
 }
-
-.fa-circle-play {
-    font-size: 4rem;
+.button-main > a {
+    text-decoration: none;
+    color: white;
 }
 
 .hero-container {

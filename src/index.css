@@ -24,7 +24,7 @@ body {
 }
 
 /* Set core root defaults */
-html:focus-within {
+html {
     scroll-behavior: smooth;
 }
 
