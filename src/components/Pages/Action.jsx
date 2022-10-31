@@ -5,7 +5,7 @@ const Action = () => {
     return (
         <div className="items-container">
             <video
-                src="/videos/video_action.mp4"
+                src="/videos/video_action.webm"
                 autoPlay
                 loop
                 muted

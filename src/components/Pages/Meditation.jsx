@@ -5,7 +5,7 @@ const Meditation = () => {
     return (
         <div className="items-container">
             <video
-                src="/videos/video_meditation.mp4"
+                src="/videos/video_meditation.webm"
                 autoPlay
                 loop
                 muted

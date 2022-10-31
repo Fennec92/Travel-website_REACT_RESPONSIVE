@@ -4,7 +4,7 @@ const Hero = () => {
     return (
         <div className="hero-container">
             <video
-                src="/videos/video_main.mp4"
+                src="/videos/video_main.webm"
                 autoPlay
                 loop
                 muted
