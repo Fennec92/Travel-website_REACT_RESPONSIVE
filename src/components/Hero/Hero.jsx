@@ -10,9 +10,6 @@ const Hero = () => {
                 <button className="button button-main" type="button">
                     GET STARTED
                 </button>
-                <button className="button button-outline" type="button">
-                    WATCH <i className="fa-regular fa-circle-play" /> TRAILOR
-                </button>
             </div>
         </div>
     );
