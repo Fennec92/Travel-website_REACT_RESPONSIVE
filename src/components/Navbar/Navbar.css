@@ -60,3 +60,9 @@
 .nav-item:hover {
     background-color: #fff;
 }
+
+@media screen and (max-width: 576px) {
+    .nav-menu.active {
+        font-size: 20vw;
+    }
+}
