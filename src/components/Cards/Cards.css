@@ -73,4 +73,16 @@
     .cards-container > h2 {
         font-size: 20vw;
     }
+
+    .card-top {
+        height: 350px;
+    }
+
+    .card-bottom {
+        font-size: 7vw;
+    }
+
+    .card {
+        width: 90vw;
+    }
 }
