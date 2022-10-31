@@ -4,7 +4,14 @@ import items from "./items";
 const Explore = () => {
     return (
         <div className="items-container">
-            <video src="/videos/explore.webm" autoPlay loop muted playsInline />
+            <video
+                src="/videos/explore.webm"
+                autoPlay
+                loop
+                muted
+                playsInline
+                poster="images/poster/poster_explore.jpg"
+            />
             <div className="items">
                 {items &&
                     items.map((item) => {

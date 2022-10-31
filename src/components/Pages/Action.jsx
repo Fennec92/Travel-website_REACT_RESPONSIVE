@@ -10,6 +10,7 @@ const Action = () => {
                 loop
                 muted
                 playsInline
+                poster="images/poster/poster_action.jpg"
             />
             <div className="items">
                 {items &&
