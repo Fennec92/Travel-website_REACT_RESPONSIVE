@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10rem;
+    gap: 5rem;
     background: linear-gradient(to right, #8e54e9, #4776e6);
     padding: 50px 0;
 }
@@ -80,6 +80,7 @@
 
     .card-bottom {
         font-size: 7vw;
+        height: 150px;
     }
 
     .card {

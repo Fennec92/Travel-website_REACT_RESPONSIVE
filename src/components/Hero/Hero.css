@@ -64,3 +64,10 @@ video {
     font-size: 7.5vw;
     text-align: center;
 }
+
+@media screen and (max-width: 576px) {
+    .hero-container h1 {
+        font-size: 15vw;
+        text-align: center;
+    }
+}
